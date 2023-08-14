@@ -2,6 +2,8 @@
 
 This is an official starter Turborepo.
 
+This is a chat app.
+
 ## Using this example
 
 Run the following command:
