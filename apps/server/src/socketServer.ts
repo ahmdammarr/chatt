@@ -1,11 +1,8 @@
-import http from 'http';
+import express from 'express';
 import { Server, Socket } from 'socket.io';
 
-const server = http.createServer();
-import http from 'http';
-import { Server, Socket } from 'socket.io';
-
-const server = http.createServer();
+const app = express();
+const server = app.listen(8000);
 const io = new Server(server);
 
 io.on('connection', (socket: Socket) => {
