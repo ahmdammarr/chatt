@@ -10,8 +10,8 @@ gha_enabled: True
 description: ''
 
 docs:
-  - "https://create-react-app.dev"
-  - "https://socket.io/docs/v4/"
-  - "https://reactjs.org"
-  - "https://turbo.build/repo/docs"
+  "CRA": "https://create-react-app.dev"
+  "Socket": "https://socket.io/docs/v4/"
+  "React JS": "https://reactjs.org"
+  "Turbo": "https://turbo.build/repo/docs"
 # Default Values: https://github.com/sweepai/sweep/blob/main/sweep.yaml
