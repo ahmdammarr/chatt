@@ -11,12 +11,15 @@
     "server": "turbo run server"
   },
   "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
     "esbuild": "^0.14.38",
     "esbuild-register": "^3.3.2",
     "eslint": "^7.32.0",
     "eslint-config-custom-server": "*",
     "tsconfig": "*",
-    "typescript": "^4.5.3",
-    "socket.io": "*"
+    "typescript": "^4.5.3"
   }
 }
