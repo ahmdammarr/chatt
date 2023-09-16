@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node src/server.ts",
+    "dev": "node src/server.ts",
     "build": "turbo run build",
     "test": "turbo run test",
     "lint": "tsc --noEmit && eslint \"src/**/*.ts*\"",
