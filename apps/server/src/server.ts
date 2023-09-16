@@ -7,7 +7,11 @@ app.get("/", (req, res) => {
 });
 
 const httpServer = http.createServer(app);
-const io = new Server(httpServer);
+const io = new Server(httpServer, {
+  cors: {
+    origin: "https://example.com",
+  },
+});
 
 httpServer.listen(process.env.PORT || 3001, () => {
   console.log(`Server is running on port ${process.env.PORT || 3001}`);
