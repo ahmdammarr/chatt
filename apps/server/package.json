@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "npm start",
-    "build": "npm run build",
-    "test": "npm test",
+    "start": "turbo run start",
+    "build": "turbo run build",
+    "test": "turbo run test",
     "lint": "tsc --noEmit && eslint \"src/**/*.ts*\"",
-    "clean": "npm run clean",
-    "server": "npm run server"
+    "clean": "turbo run clean",
+    "server": "turbo run server"
   },
   "dependencies": {
     "express": "^4.17.1"
