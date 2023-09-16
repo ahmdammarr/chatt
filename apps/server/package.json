@@ -3,12 +3,15 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "turbo run start",
-    "build": "turbo run build",
-    "test": "turbo run test",
-    "lint":  "tsc --noEmit && eslint \"src/**/*.ts*\"",
-    "clean": "turbo run clean",
-    "server": "turbo run server"
+    "start": "npm start",
+    "build": "npm run build",
+    "test": "npm test",
+    "lint": "tsc --noEmit && eslint \"src/**/*.ts*\"",
+    "clean": "npm run clean",
+    "server": "npm run server"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "esbuild": "^0.14.38",
